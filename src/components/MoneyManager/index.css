@@ -1,0 +1,129 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140vh;
+}
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.account-holder-details {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  border-radius: 20px;
+  background-size: cover;
+  height: 200px;
+  padding: 30px;
+  width: 100%;
+  align-self: center;
+}
+.account-holder-name {
+  font-family: 'Roboto';
+}
+.welcome-note {
+  font-family: 'Roboto';
+}
+.welcome-note-span {
+  color: #0b69ff;
+}
+.money-details-container {
+  margin-top: 30px;
+}
+.transaction-and-history-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+.add-transaction-card {
+  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  padding: 40px;
+  border-width: 1px;
+  border-radius: 20px;
+  width: 400px;
+}
+.form-heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+}
+.label {
+  font-family: 'Roboto';
+  color: #7e858e;
+}
+.input {
+  height: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 10px;
+  font-size: 15px;
+}
+.add-button {
+  border-style: none;
+  padding: 10px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  width: 70px;
+  border-radius: 7px;
+  align-self: flex-start;
+  margin-top: 20px;
+  outline: none;
+  cursor: pointer;
+}
+.type-select {
+  height: 40px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border-width: 1px;
+  padding-left: 10px;
+  font-size: 18px;
+  padding: 10px;
+  font-family: 'Roboto';
+}
+.history-container {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  padding: 40px;
+  border-width: 1px;
+  border-radius: 20px;
+  flex-grow: 1;
+  margin-left: 20px;
+  padding-top: 0px;
+}
+.history-heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+}
+.list-item {
+  display: flex;
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 1px;
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0pc;
+}
+.column-heaing {
+  font-family: 'Roboto';
+  font-size: 19px;
+  flex-grow: 1;
+
+  text-align: center;
+
+  text-align: center;
+}
+.type-select-option {
+  height: 50px;
+}
+.option-for-type-select {
+  height: 100px;
+}

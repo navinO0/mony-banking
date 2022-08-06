@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.history-list-item {
+  display: flex;
+
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 1px;
+  border-top-style: none;
+  height: 50px;
+}
+.history-item-detail {
+  font-family: 'Roboto';
+  font-size: 19px;
+  flex-grow: 1;
+  width: 100px;
+  text-align: center;
+}
+.delete-img {
+  height: 30px;
+  margin-right: 20px;
+}
+.delete-button {
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+}

@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.main-container-list-item {
+  display: flex;
+  justify-content: space-between;
+
+  height: 150px;
+  align-items: center;
+  width: 100%;
+}
+.your-bal-flex-container {
+  display: flex;
+  align-items: center;
+}
+.your-balance-amt {
+  display: flex;
+  border-style: solid;
+  border-width: 1px;
+  padding: 15px;
+  width: 300px;
+  border-radius: 20px;
+}
+.your-bal-img {
+  height: 50px;
+  margin-right: 30px;
+}
+.your-bal-sub-container {
+}
+.your-bal-text {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+.amount {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.box-1 {
+  background-color: #ecfccb;
+}
+.box-2 {
+  background-color: #cffafe;
+}
+.box-3 {
+  background-color: #ede9fe;
+}
